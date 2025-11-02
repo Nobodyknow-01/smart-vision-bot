@@ -1,0 +1,19 @@
+# Ignore environment files
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large media or model cache
+*.pkl
+*.dat
+*.mp4
+*.avi
+
+# Ignore logs
+*.log
+logs/
